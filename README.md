@@ -35,4 +35,18 @@ O banco de dados é composto pelas seguintes tabelas:
 
 Os scripts SQL fornecidos incluem:
 
-1. **Criação das Tabelas**: Scripts para criar as tabelas `cat
+1. **Criação das Tabelas**: Scripts para criar as tabelas `categorias`, `produtos`, `compras` e `itens_compra`, incluindo a definição de relacionamentos e restrições.
+
+2. **Inserção de Dados**: Scripts para inserir dados de exemplo nas tabelas, incluindo categorias, produtos e compras.
+
+3. **Consultas de Exemplos**: Exemplos de consultas para recuperar dados e realizar operações básicas de manipulação de dados, como inserção, atualização e exclusão.
+
+## Como Executar
+
+1. **Configuração do Banco de Dados**:
+   - Certifique-se de ter o PostgreSQL instalado e em execução.
+   - Crie um banco de dados no PostgreSQL para o projeto.
+
+2. **Execução dos Scripts SQL**:
+   - Execute o script de criação das tabelas para configurar o banco de dados.
+   - Execute o script de inserção de dados para popular o banco de dados com dados de exemplo.
